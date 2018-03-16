@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Sinavlar"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Ana Menü" />
+        <item
+            android:id="@+id/nav_Konular"
+            android:icon="@drawable/ic_work_black_24dp"
+            android:title="KPSS Konular" />
+        <item
+            android:id="@+id/nav_Istatistik"
+            android:icon="@drawable/ic_assessment_black_24dp"
+            android:title="İstatistiklerim" />
+        <item
+            android:id="@+id/nav_Ayarlar"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ayarlar" />
+    </group>
+
+    <item android:title="İletişim">
+        <menu>
+            <item
+                android:id="@+id/nav_Puan"
+                android:icon="@drawable/ic_stars_black_24dp"
+                android:title="Puan Ver" />
+        </menu>
+    </item>
+
+</menu>

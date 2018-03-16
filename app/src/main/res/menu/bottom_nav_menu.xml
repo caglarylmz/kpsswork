@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_back"
+        android:enabled="true"
+        android:icon="@drawable/ic_back"
+        android:title="Önceki Soru"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_answer"
+        android:enabled="true"
+        android:icon="@drawable/ic_answer"
+        android:title="Cevap"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_right"
+        android:enabled="true"
+        android:icon="@drawable/ic_right"
+        android:title="Sonraki Soru"
+        app:showAsAction="ifRoom"/>
+
+</menu>
