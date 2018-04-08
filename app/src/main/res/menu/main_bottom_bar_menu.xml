@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mainBootomBar_sinavlar"
+        android:enabled="true"
+        android:icon="@drawable/sinav"
+        android:title="Sınavlar"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/mainBootomBar_favoriler"
+        android:enabled="true"
+        android:icon="@drawable/favori"
+        android:title="Favoriler"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/mainBootomBar_rastgele"
+        android:enabled="true"
+        android:icon="@drawable/random"
+        android:title="Rastgele Soru Getir"
+        app:showAsAction="always"/>
+
+</menu>
